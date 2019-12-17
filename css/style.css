@@ -1,0 +1,132 @@
+html,body{
+    width: 100%;
+    font-family:PingFangTC-Regular,sans-serif,Microsoft JhengHei;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 3% 20px 3%;
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.dropdown{
+    display: flex;
+    list-style-type: none;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+.arrow-down{
+    margin: 0px 20px;
+    height: 35px;
+
+}
+.lan-tw{
+    color: black;
+    display: inline-block;
+}
+
+.ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: #0a3167;
+    font-size: 26px;
+    font-weight: 600;
+    background-color: #f7e4e4;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.banner-img{
+    width: 100%;
+}
+
+.background{
+    background: #f7e4e4;
+    border-radius: 30px;
+    border: none;
+    max-width: 20%;
+    padding: 40px 20px;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.card{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+footer{
+    background-color:#fff6f6 ;
+    padding: 20px 40px;
+}
+.yolo{
+    font-size: 30px;
+    font-weight: 700;
+}
+@media (min-width: 576px) and (max-width: 769px) {
+    .card{
+        font-size: 24px;
+    }
+    .ul{
+    font-size: 20px;
+    }
+    .background{
+        max-width: 20%;
+    }
+    .dropdown{
+        font-size: 24px;
+    }
+}
+@media (max-width: 575.98px) { 
+    .card{
+        font-size: 12px;
+    }
+    .ul{
+    font-size: 16px;
+    }
+    .background{
+        max-width: 25%;
+        padding: 15px 10px;
+        border-radius: 20px;
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+    .dropdown{
+        font-size: 16px;
+    }
+    .logo{
+        width: 56px;
+        height: 49px;
+    }
+    .arrow-down{
+        width: 12px;
+        height: 12px;
+    }
+    .sreach{
+        width: 20px;
+        height: 20px;
+    }
+    footer{
+        background-color:#fff6f6 ;
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+    .yolo{
+        font-size: 20px;
+        font-weight: 700;
+    }
+ }
